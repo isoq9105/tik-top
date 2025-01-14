@@ -57,7 +57,7 @@ def start_game():
         winner = check_winner()
         if winner:
             print(f"Tabriklayman! O'yinchi {winner} g'olib bo'ldi!")
-            break
+            continue
 
         # Navbatdagi o'yinchiga o'tish
         current_player = "O" if current_player == "X" else "X"
